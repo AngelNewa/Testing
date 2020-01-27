@@ -11,46 +11,61 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Testing App"
-        android:textSize="30sp"
-        android:textAlignment="center"
+        android:textSize="25sp"
+       android:layout_gravity="center"
        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter first no."/>
+        android:text="Enter first no."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
 
     <EditText
         android:id="@+id/etfirst"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter second no."/>
+        android:text="Enter second no."
+        android:layout_margin="15dp"
+        android:textSize="20sp"/>
 
     <EditText
         android:id="@+id/etSecond"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
 
     <Button
         android:id="@+id/btnSum"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Sum"/>
+        android:text="Sum"
+        android:layout_gravity="center"
+        android:background="#97A3E6"
+        />
 
     <Button
         android:id="@+id/btnSub"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Sub"/>
+        android:text="Sub"
+        android:layout_gravity="center"
+        android:background="#97A3E6"
+        android:layout_margin="15dp"/>
 
     <Button
         android:id="@+id/btnDivide"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Divide"/>
+        android:text="Divide"
+        android:layout_gravity="center"
+        android:background="#97A3E6"/>
 
 
 
